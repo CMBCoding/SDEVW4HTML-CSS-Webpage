@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: "Mozilla Text", sans-serif;
+}
+
+body {
+    background-color: #f0f8ff;
+}
+
+.bbh-sans-bogle{
+    font-family: "BBH Sans Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.mozilla-text {
+    font-family: "Mozilla Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.google-sans-code {
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+p {
+    border: inset gray 2px;
+    background-color: #f0f8ff;
+    font-family: "Google Sans Code", monospace;
+    padding: 0.5rem;
+}
+
+section {
+    padding: 1rem;
+    margin: 1rem 0;
+    border: solid gray 2px;
+    border-radius: 1rem;
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+}
+.img-box > img {
+    width: 15rem;
+    box-shadow: 0.4rem 0.4rem 0.4rem #808080;
+}
+
+#intro {
+    background-color: #fff9d6;
+}
+#intro .question {
+    color: #000080;
+    font-weight: 700;
+}
+
+#basics-html {
+    background-color: #e3f6d5;
+}
+#basics-html .question {
+    color: #8b0000;
+}
+
+#basics-css {
+    background-color: #ffe6f2;
+}
+#basics-css .question {
+    color: #068000;
+}
+
+#links {
+    background-color: #d0e7ff;
+}
+
+.section-header{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #e6e6e6;
+}
