@@ -31,8 +31,9 @@ body {
 }
 
 p {
-    border: inset gray 2px;
-    background-color: #f0f8ff;
+    border: inset #232222 2px;
+    background-color: #232222;
+    color: #FFFFFF;
     font-family: "Google Sans Code", monospace;
     padding: 0.5rem;
 }
